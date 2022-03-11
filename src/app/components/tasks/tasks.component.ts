@@ -23,5 +23,6 @@ export class TasksComponent implements OnInit {
     .subscribe(
       () => this.tasks = this.tasks
       .filter((t) => t.id !== task.id));
+      console.log("Task Deleted!!!")
   }
 }
