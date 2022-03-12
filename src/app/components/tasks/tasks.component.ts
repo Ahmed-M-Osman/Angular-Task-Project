@@ -25,4 +25,9 @@ export class TasksComponent implements OnInit {
       .filter((t) => t.id !== task.id));
       console.log("Task Deleted!!!")
   }
+
+  toggleReminder(task: Task){
+    task.reminder = !task.reminder;
+    this.taskService.updateTaskReminder(task).subscribe();
+  }
 }
