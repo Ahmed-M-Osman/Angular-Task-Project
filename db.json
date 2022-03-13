@@ -4,19 +4,19 @@
       "id": 1,
       "text": "Kill'em all!",
       "day": "30th of March 12:30pm",
-      "reminder": true
+      "reminder": false
     },
     {
       "id": 2,
       "text": "Robb the bank!",
       "day": "30th of March 12:00pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 3,
       "text": "Beat that loud rooster!",
       "day": "30th of March 12:00pm",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 4,
